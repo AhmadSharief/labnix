@@ -8,13 +8,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #cc1616;
+  color: #2f8e94;
   text-decoration: none;
 }
 
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #cc1616;
+  background: #2f8e94;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -75,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #cc1616;
+  border: 6px solid #2f8e94;
   border-top-color: #efefef;
   border-radius: 50%;
   width: 60px;
@@ -275,7 +276,7 @@ font-weight:900;
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -283,10 +284,21 @@ font-weight:900;
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #cc1616;
+  color: #2f8e94;
+}
+.mob{
+	width:114px;
+	background-color: #2f8e94;
+	border-color:#2f8e94;
 }
 
-@media (max-width: 991px) {
+
+@media (max-width: 320px) {
+  .mob {
+    width: 93px;;
+  }
+}
+  @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -329,7 +341,7 @@ font-weight:900;
   color: #191919;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #cc1616;
+  color: #2f8e94;
   background: none;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
@@ -356,7 +368,7 @@ font-weight:900;
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #cc1616;
+  color: #2f8e94;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -407,8 +419,8 @@ font-weight:900;
   color: #fff;
 }
 #hero .btn-get-started:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: #2f8e94;
+  border-color: #2f8e94;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -500,7 +512,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cc1616;
+  color: #2f8e94;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -537,7 +549,7 @@ section {
   padding: 0;
 }
 .why-us .box:hover {
-  background: #cc1616;
+  background: #2f8e94;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -583,7 +595,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #cc1616;
+  background: #2f8e94;
   transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -620,15 +632,15 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: #2f8e94;
+  border-color: #2f8e94;
   padding: 70px 20px 90px 20px;
 }
 .services .icon-box:hover .icon {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #cc1616;
+  color: #2f8e94;
 }
 .services .icon-box:hover .icon::before {
   background: #e82d2d;
@@ -667,8 +679,8 @@ section {
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #cc1616;
-  border: 2px solid #cc1616;
+  background: #2f8e94;
+  border: 2px solid #2f8e94;
 }
 
 /*--------------------------------------------------------------
@@ -733,7 +745,7 @@ section {
   color: #333333;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #cc1616;
+  color: #2f8e94;
 }
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
@@ -780,10 +792,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #cc1616;
+  border: 1px solid #2f8e94;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cc1616;
+  background-color: #2f8e94;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -837,7 +849,7 @@ section {
 }
 .pricing .box h4 {
   font-size: 42px;
-  color: #cc1616;
+  color: #2f8e94;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -864,7 +876,7 @@ section {
   padding-bottom: 16px;
 }
 .pricing .box ul i {
-  color: #cc1616;
+  color: #2f8e94;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -877,7 +889,7 @@ section {
   text-align: center;
 }
 .pricing .box .btn-buy {
-  background: #cc1616;
+  background: #2f8e94;
   display: inline-block;
   padding: 10px 40px;
   color: #fff;
@@ -892,7 +904,7 @@ section {
   background: #e82d2d;
 }
 .pricing .featured {
-  background: #cc1616;
+  background: #2f8e94;
   box-shadow: none;
   color: #fff;
 }
@@ -911,7 +923,7 @@ section {
 }
 .pricing .featured .btn-buy:hover {
   background: #fff;
-  color: #cc1616;
+  color: #2f8e94;
 }
 
 /*--------------------------------------------------------------
@@ -952,7 +964,7 @@ section {
   transition: 0.3s;
 }
 .team .member .social a:hover {
-  color: #cc1616;
+  color: #2f8e94;
 }
 .team .member .social i {
   font-size: 18px;
@@ -970,7 +982,7 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #cc1616;
+  color: #2f8e94;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f5a0a0;
@@ -1034,7 +1046,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #cc1616;
+  background-color: #2f8e94;
 }
 .contact .php-email-form input {
   padding: 10px 15px;
@@ -1043,7 +1055,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #cc1616;
+  background: #2f8e94;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1142,7 +1154,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #cc1616;
+  background: #2f8e94;
   color: #fff;
   text-decoration: none;
 }
@@ -1205,7 +1217,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #cc1616;
+  background: #2f8e94;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
@@ -1231,4 +1243,11 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+@media (max-width:320){
+	.contact .mob{
+		width : 83px;
+		background-color:#2f8e94;
+		border-color:#2f8e94
+	}
 }
